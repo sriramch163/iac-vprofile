@@ -22,7 +22,8 @@ terraform {
 
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      #version = "~> 2.23.0"
+      version = "~> 2.23.0"
+      cluster_version = "1.29"
     }
   }
 
